@@ -1,0 +1,183 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-site {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 span {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.menu-list {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-page-site {
+    text-align: center;
+}
+
+.imagem-video-call {
+    margin-top: 1.7em;
+    height: 10em;
+    margin-bottom: 1em
+}
+
+.pre-title {
+    font-size: 0.9em;
+    margin-bottom: 1.5em
+}
+
+.title {
+    font-size: 2.5em;
+    color: red
+}
+
+.btnOrcamento {
+    border: 1px solid red;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+.sobre-produtos {
+    text-align: center;
+}
+
+.imagem-coding {
+    margin-top: 8em;
+    height: 10em;
+    margin-bottom: 1em
+}
+
+/* .services-list {
+    padding: 0px;
+    list-style: none;
+    font-size: 1.5em
+}
+
+.services-list span {
+    color: red;
+    padding-left: 10px;
+} */
+
+.cards-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon-cloud-check {
+    float: left;
+    margin-left: 50px;
+    font-size: 1.5em;
+    color: red;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-right: 40px;
+    padding-top: 2.5px;
+}
+
+.card-informative-input {
+    margin-top: 20px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.numberCell {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    border: none;
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btnSubmit {
+    border: none;
+    background-color: red;
+    padding: 13px 37px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.usuarios-opnioes {
+    display: flex; 
+    flex-direction: column;
+}
+
+.user-card {
+    height: 12em;
+    display: flex;
+    align-items: center;
+    background: gainsboro;
+    border-radius: 15px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card-opiniao {
+    font-size: 1em;
+}
+
+.card-opiniao span {
+    color: red;
+    font-size: 1.5em;
+}
+
+.nome-user {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.nome-empresa {
+    margin: 0px;
+}
+
+.card-opiniao p {
+    font-weight: bold;
+}
+
+.rodape-site {
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+.informative-rodape {
+    text-align: center;
+}
+
+.informative-rodape h2 {
+    font-style: italic;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.redes-sociais-menu {
+    list-style: none;
+    padding: 0;
+    color: red;
+    display: flex;
+}
+
+.redes-sociais-menu {
+    letter-spacing: 50px;
+    font-size: 2em;
+}
