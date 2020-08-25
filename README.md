@@ -3,6 +3,7 @@
 <p align="center">Projeto Desenvolvido para fins de Estudo e Praticas.</p>
 <p align="center">Desafio do Site Dev Challenger. Layout e Desafio feito pela <a href="https://github.com/Lorenalgm">Lorena</a> :)</p>
 <p align="center">Esse código (Index.html, Style.css) foram escritos por mim a fim de praticar e de cumprir o desafio da Dev Challenger. Entretanto toda a ideia do desafio inclusive os itens usados aqui (Imagens e até mesmo mais a baixo desse Read.me foram desenvolvidos pela <a href="https://github.com/Lorenalgm">Lorena</a>.)</p>
+<p align="center">Obrigado pela oportunidade 🙋🏻‍♂️</p>
 <p align="center">
   <a href="http://www.freepik.com">
     <img src="https://i.ibb.co/stqTkc6/video-call.png" alt="Logo" width="250" height="200">
