@@ -61,17 +61,6 @@ h1 span {
     margin-bottom: 1em
 }
 
-/* .services-list {
-    padding: 0px;
-    list-style: none;
-    font-size: 1.5em
-}
-
-.services-list span {
-    color: red;
-    padding-left: 10px;
-} */
-
 .cards-services {
     display: flex;
     flex-direction: column;
@@ -92,6 +81,7 @@ h1 span {
 }
 
 .card-informative-input {
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -104,7 +94,7 @@ h1 span {
     margin-bottom: 3px;
     border: none;
     background-color: gainsboro;
-    padding: 10px;
+    padding: 13px 12px;
     border-radius: 10px;
 }
 
@@ -126,8 +116,8 @@ h1 span {
     height: 12em;
     display: flex;
     align-items: center;
-    background: gainsboro;
-    border-radius: 15px;
+    background: rgba(220, 220, 220, 0.2);
+    border-radius: 20px;
     justify-content: space-between;
     margin-bottom: 10px;
 }
@@ -180,4 +170,87 @@ h1 span {
 .redes-sociais-menu {
     letter-spacing: 50px;
     font-size: 2em;
+}
+
+@media screen and (min-width: 863px) {
+    .header-site {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menu-list {
+        display: flex;
+    }
+
+    .menu-list li {
+        margin-left: 20px;
+        padding: 5px 10px;
+    }
+
+    .login {
+        border: 1px solid red;
+        padding: 5px 10px;
+        background: red;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .home-page-site {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .sobre-produtos {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .imagem-coding {
+        height: 30em;
+    }
+
+    .card-informative {
+        height: 2em;
+    }
+
+    .card-title {
+        font-weight: normal;
+        margin-right: 40px;
+        padding-top: 2.5px;
+    }
+
+    .icon-cloud-check {
+        float: left;
+        margin-left: 50px;
+        font-size: 1.5em;
+        color: red;
+    }
+
+    .card-informative-input {
+        margin-top: 130px;
+    }
+
+    .usuarios-opnioes {
+        margin-top: 80px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .user-card {
+        width: 600px;
+        text-align: center;
+    }
+
+    .rodape-site {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
 }
