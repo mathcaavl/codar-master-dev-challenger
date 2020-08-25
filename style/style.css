@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 .header-site {
@@ -172,6 +173,20 @@ h1 span {
     font-size: 2em;
 }
 
+@media screen and (min-width: 650px) {
+    .sobre-produtos {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .card-informative-input {
+        margin-top: 50px;
+    }
+}
+
 @media screen and (min-width: 863px) {
     .header-site {
         display: flex;
@@ -251,6 +266,7 @@ h1 span {
         display: flex;
         justify-content: space-between;
         text-align: center;
+        width: 100%;
     }
 
 }
