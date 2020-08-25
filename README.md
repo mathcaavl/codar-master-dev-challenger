@@ -1,7 +1,8 @@
 <br />
 <p align="center">
-<p align="center">Projeto Desenvolvido para fins de Estudo e Praticas</p>
+<p align="center">Projeto Desenvolvido para fins de Estudo e Praticas.</p>
 <p align="center">Desafio do Site Dev Challenger. Layout e Desafio feito pela <a href="https://github.com/Lorenalgm">Lorena</a> :)</p>
+<p align="center">
   <a href="http://www.freepik.com">
     <img src="https://i.ibb.co/stqTkc6/video-call.png" alt="Logo" width="250" height="200">
   </a>
